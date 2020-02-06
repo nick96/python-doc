@@ -1,0 +1,24 @@
+{
+  "name": "python-doc",
+  "version": "0.0.1",
+  "description": "Redirect to the python version of you choosing",
+  "main": "python-doc.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "web-ext build -o -a dist -i '*~' -i 'package*'",
+      "start:firefox": "web-ext run --verbose --source-dir ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick96/python-doc.git"
+  },
+  "author": "Nick Spain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick96/python-doc/issues"
+  },
+  "homepage": "https://github.com/nick96/python-doc#readme",
+  "devDependencies": {
+    "web-ext": "^4.0.0"
+  }
+}
