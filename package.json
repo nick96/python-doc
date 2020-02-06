@@ -13,7 +13,7 @@
     "url": "git+https://github.com/nick96/python-doc.git"
   },
   "author": "Nick Spain",
-  "license": "MIT",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/nick96/python-doc/issues"
   },
